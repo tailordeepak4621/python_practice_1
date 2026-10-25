@@ -10,6 +10,10 @@ elif no1 > 0 and no2 < 0:
 elif no1 < 0 and no2 > 0:
     print("no1 is negative but no2 is positive")  
 elif no1 == 0 and no2 == 0:
-    print("Both are zero")         
+    print("Both are zero")   
+elif no1 == 0 and no2 <= 0:
+    print("no1 is zero but no2 is negative")  
+elif no1 >= 0 and no2 == 0:
+    print("no1 is positive but no2 is zero")               
 else:
     print("Both are negative ")
