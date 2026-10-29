@@ -6,8 +6,8 @@ for i in range(0,no):
     print()
 
 
-# for i in range(0,no):
-#    print("*"*no)
-# #    print()
+for i in range(0,no):
+   print("*"*no)
+#    print()
 
    
